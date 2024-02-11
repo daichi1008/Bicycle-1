@@ -1,0 +1,107 @@
+/*全体のスタイル（CSSリセット用）*/
+* {
+    /* padding,borderが要素の中に入る */
+    box-sizing: border-box;
+}
+
+ul {
+    /* リストの・を消す */
+    list-style: none;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+a {
+    color: inherit;
+    /* 文字の下の線を消す */
+    text-decoration: none;
+}
+
+body {
+    color: black;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* headerセクション */
+
+#header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    width: 120px;
+    height: 40px;
+    margin: 10px 0;
+    margin-left: 230px;
+    background-color: #393E46;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.header-nav ul {
+    display: flex;
+    margin-right: 230px;
+    padding-top: 24px;
+}
+
+.header-nav li {
+    margin-left: 30px;
+    color: #24292E;
+    font-size: 14px;
+}
+
+/* mainセクション */
+.main-img {
+    width: 1280px;
+}
+
+/* aboutセクション */
+.about-title {
+    text-align: center;
+    color: #383E45;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: Meiryo;
+}
+
+.about-title:after {
+    display: inline-block;
+    width: 30px;
+    margin-right: 20px;
+    border-top: 1px solid #383E45
+}
+
+/* Bicycleセクション */
+
+/* footerセクション */
+#footer {
+    height: 20px;
+}
+
+.company-info {
+    text-align: center;
+    font-size: 10px;
+    color: #383E45;
+}
