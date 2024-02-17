@@ -75,23 +75,33 @@ body {
 /* mainセクション */
 .main-img {
     width: 1280px;
+    margin-bottom: 90px;
 }
 
 /* aboutセクション */
 .about-title {
-    text-align: center;
+    margin: 0 auto;
     color: #383E45;
     font-size: 32px;
     font-weight: bold;
     font-style: Meiryo;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #393E46;
+    width: 100px;
 }
 
-.about-title:after {
-    display: inline-block;
-    width: 30px;
-    margin-right: 20px;
-    border-top: 1px solid #383E45
+.about-wrap {
+    margin-top: 75px;
+    display: flex;
+    text-align: center;
 }
+
+.about-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
 
 /* Bicycleセクション */
 
